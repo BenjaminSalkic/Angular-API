@@ -1,0 +1,15 @@
+<form class="add-form" (ngSubmit)="onSubmit()" >
+    <div class="from-cont">
+        <label for="FirstName">Name</label>
+        <input type="text" name="FirstName" [(ngModel)]="FirstName" id="FirstName">
+    </div>
+    <div class="from-cont">
+        <label for="LastName">Surname</label>
+        <input type="text" name="LastName" [(ngModel)]="LastName" id="LastName">
+    </div>
+    <div class="from-cont">
+        <label for="Email">Email</label>
+        <input type="text" name="Email" [(ngModel)]="Email" id="Email">
+    </div>
+    <input type="submit" value="Submit" class="btn btn-block">
+</form>

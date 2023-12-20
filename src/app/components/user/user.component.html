@@ -1,0 +1,7 @@
+<div class="container"> 
+    <header>
+        <h1>{{title}}</h1>
+        <app-button color="green" text="Add"(btnClick)="toggleAdd()"></app-button>
+    </header>   
+    <app-user-display (LoadUser)="loadUser(true)"></app-user-display>    
+</div>
